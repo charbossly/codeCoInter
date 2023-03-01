@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page Header</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   </head>
+
+<body class="font-poppins bg-grayUi min-h-screen text-gray-800 overflow-x-hidden flex justify-center items-center" id="top">
+   <div class="w-2/3 rounded-2xl bg-whiteUi h-auto shadow-xl flex flex-col lg:flex-row gap-x-32 p-6">
+       <div class="w-full lg:w-1/2 gap-y-2">
+        <div class="w-24 h-24 bg-red-300 overflow-hidden rounded-full border-2 border-white">
+            <img  class="object-cover h-40 w-52" src="./images/profile.png" alt="">
+        </div>
+        
+        <h5 class="font-bold text-md my-2">MetaMask</h5>
+        <h6 class="text-xs">@metaMask</h6>
+        <p class="text-sm w-full lg:w-2/3 space-x-0 my-2">MetaMask brings Ethereum to your web browser</p>
+        <p class="icons mt-8 ml-0">
+            <span class="px-4 py-2 bg-white border-2 border-black border-opacity-25 rounded-xl mr-2"><i class="fa-brands fa-github"></i></span>
+            <span class="px-4 py-2 border-2 bg-white border-black border-opacity-25 rounded-xl mx-2"><i class="fa-brands fa-linkedin"></i></span>
+            <span class="px-4 py-2 bg-white border-2 border-black border-opacity-25 rounded-xl mx-2"><i class="fa-brands fa-gitlab"></i></span>
+            <span class="px-4 py-2 bg-white border-2 border-black border-opacity-25 rounded-xl mx-2"><i class="fa-brands fa-ethereum"></i></span>
+        </p>
+       </div>
+       <div class="w-full lg:w-1/2 py-4  px-4 lg:py-24 lg:px-16 flex flex-col justify-items-end">
+        <div class="flex justify-between">
+            <p class="w-3/4">6/8 Organizations</p>
+            <p><span><i class="fa-solid fa-circle-info"></i></span></p>
+        </div>
+        <div class="flex">
+            <div class="h-2 w-3/4 bg-orangeUi rounded-tl rounded-bl"></div>
+            <div class="h-2 w-1/4 bg-grayUi rounded-tr rounded-br"></div>
+        </div>
+        <div class="mt-2 lg:mt-20 gap-2 flex flex-col items-center lg:items-end">
+            <p class=""><span class="font-bold">4K</span> followers</p>
+            <button class="rounded-md w-auto px-8 py-2 text-white bg-violetUi">Follow</button>
+
+        </div>
+       </div>
+   </div>
+
+   
+
+    <!-- Main JS -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
