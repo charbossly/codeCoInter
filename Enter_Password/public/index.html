@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter_Password</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css" integrity="sha512-gMjQeDaELJ0ryCI+FtItusU9MkAifCZcGq789FrzkiM49D8lbDhoaUaIX4ASU187wofMNlgBJ4ckbrXM9sE6Pg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="./css/style.css">
+   </head>
+
+<body class="font-inter flex justify-center min-h-screen items-center py-8 text-gray-800 bg-grayUi bg-opacity-10 overflow-x-hidden" id="top">
+   
+    <div class="w-full lg:w-1/2 bg-white rounded-xl shadow-2xl shadow-slate-600 p-4 md:p-16  h-auto">
+        <form class="">
+            <h1 class="text-grayUi text-2xl font-bold pb-4">Enter your password</h1>
+        <div class="flex gap-x-4 items-center">
+            <img  class="border-1 rounded-full w-16 object-cover h-16" src="images/img.png" alt="">
+            <div>
+                <h6 class="text-grayUi text-sm italic">Business Account</h6>
+                <p class="text-lg font-semibold">Sarah Bills</p>
+            </div>
+        </div>
+        <div class="my-6">
+                <label for="password" class="text-xs text-grayUi font-bold">Password</label><br>
+                <div class="flex  items-center w-full">
+                    <div class="flex-1 w-full relative gap-x-1">
+                        <input type="password" name="password" class="border-2 outline-none w-full  border-grayUi  rounded-md  px-6 py-3 pl-10">
+                        <span class="absolute top-3 left-2"><i class="fa-solid fa-lock text-xl"></i></span>
+                    </div>
+                    <span class="mx-4"><i class="fa-regular fa-eye-slash block"></i><!--<i class="fa-solid fa-eye block hover:text-blue-900"></i>--></span>
+                </div>
+        </div>
+        <div class="w-11/12 pr-4 flex flex-col md:flex-row justify-between  gap-y-2 ">
+            <div class="flex">
+
+                <div class="border-2 flex border-grayUi w-16  rounded-2xl p-1">
+                    <div class="w-1/2 h-full rounded-full text-center text-xs  text-white bg-grayUi"></div>
+                    <div class="w-1/2 h-full text-center hidden text-white rounded-full bg-green-900">Y</div>
+                </div>
+                <h6 class="text-grayUi font-bold text-xs md:text-md px-1 py-0 md:py-2">Stay signed in</h6>
+            </div>
+            <button class="bg-grayUi p-2 text-center hover:bg-green rounded-xl text-white hover:bg-orange-800">Continue</button>
+        </div>
+        <p class="pt-6"><a href="text-grayUi text-md underline-2">Reset password</a></p>
+        </form>
+    </div>
+
+    <!-- Main JS -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
